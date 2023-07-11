@@ -30,8 +30,8 @@ module.exports = () => {
       }),
       // Webpack plugin that generates our service worker file
       new InjectManifest({
-        swSrc: './sw.js',
-        swDest: 'sw.js',
+        swSrc: './src-sw.js',
+        swDest: './src-sw.js',
       }),
 
       // Webpack plugin that generates our manifest file
