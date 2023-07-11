@@ -13,7 +13,7 @@
     "build": "cd client && npm run build",
     "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client && npm start",
-    "heroku-prebuild": "cd client && npm install --dev"
+    "heroku-prebuild": "cd server && npm install --dev"
   },
   "keywords": [],
   "author": "JonathanFadera",
