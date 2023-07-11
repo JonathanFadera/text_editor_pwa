@@ -1,12 +1,11 @@
 # Text Editor PWA (progressive web applications)
 ---
 ## Table of Contents
-- [Text Editor PWA (progressive web applications)](#text-editor-pwa-progressive-web-applications)
+
   - [Table of Contents](#table-of-contents)
   - [General Information](#general-information)
   - [Utilized Technologies](#utilized-technologies)
   - [Installation](#installation)
-    - [To perform a local installation, please follow these steps:](#to-perform-a-local-installation-please-follow-these-steps)
   - [Usage](#usage)
   - [Features](#features)
   - [Contact](#contact)
