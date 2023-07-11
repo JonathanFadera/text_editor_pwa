@@ -24,6 +24,15 @@ if (typeof editor === 'undefined') {
   loadSpinner();
 }
 
+self.addEventListener("install", (event) => {
+  // The promise that skipWaiting() returns can be safely ignored.
+  self.skipWaiting();
+
+  // Perform any other actions required for your
+  // service worker to install, potentially inside
+  // of event.waitUntil();
+});
+
 // Check if service workers are supported
 if ('serviceWorker' in navigator) {
   // register workbox service worker
